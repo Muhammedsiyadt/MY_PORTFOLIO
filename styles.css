@@ -1,0 +1,99 @@
+/* Custom Styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.skill-card, .education-card, .portfolio-item .card {
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #fff;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    background: #000000;
+    
+}
+.portfolio-item .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    background: #000;
+    
+}
+.skill-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    background: #000;
+}
+
+.portfolio-item img {
+    border-radius: 1rem;
+    object-fit: cover;
+    cursor: pointer;
+    transform: perspective(1000px);
+    scale: 0.7;
+}
+
+.portfolio-item .card:hover {
+    /* transform: translateY(-10px) rotate(2deg); */
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+    border-color: #b9c6d4;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    background: #222;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media .btn {
+    margin: 0 5px;
+    font-size: 1.5em;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.social-media .btn:hover {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #about .row, #skills .row, #education .row {
+        flex-direction: column;
+    }
+
+    .portfolio-item .card-img-top {
+        height: auto;
+    }
+
+    .skill-card, .education-card {
+        margin-bottom: 15px;
+    }
+}

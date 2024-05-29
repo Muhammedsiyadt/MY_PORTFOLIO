@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">My Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="row">
+            <div class="col-md-2 p-0 m-0">
+                <img style="border-radius: 1rem;
+                object-fit: cover;
+                cursor: pointer;
+                transform: perspective(1000px);
+                scale: 0.7;" src="/WhatsApp Image 2024-03-26 at 09.40.47_b1eec0cf.jpg" class="img-fluid " alt="Your Photo">
+            </div>
+            <div class="col-md-10 text-light">
+                <h2>About Me</h2>
+                <p>As a self-taught MERN stack developer, I bring a strong foundation in JavaScript and its associated technologies.
+                    With expertise in backend development using Node.js and Express.js, I’ve built scalable and efficient server-side
+                    applications. My experience extends to database management with MongoDB, ensuring seamless integration of data
+                    storage and retrieval mechanisms. On the front end, I excel in crafting engaging user interfaces using HTML, CSS,
+                    and Bootstrap, focusing on usability and aesthetic appeal. Additionally, my familiarity with Java and C allows me to
+                    tackle diverse programming challenges with confidence. With a commitment to continuous learning and a passion for
+                    technology, I am dedicated to delivering high-quality solutions that meet the evolving needs of the digital landscape.
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container mb-5">
+        <h2 class="text-center text-light">Skills</h2>
+        <div class="row mt-4 text-center">
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>JavaScript</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4> Reactjs</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>NodeJS</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>Expressjs</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4> Mongodb</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>HTML/CSS</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>GIT</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>Figma</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>VS Code</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>Github</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>Postman</h4>
+                </div>
+            </div>
+            <!-- <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>Mongodb Compass</h4>
+                </div>
+            </div> -->
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>AWS</h4>
+                </div>
+            </div>
+            <!-- <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>Adaptability</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>Leadership</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>Problem solving</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>Public Speaking</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <h4>Time Management</h4>
+                </div>
+            </div> -->
+            
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="container mt-3">
+        <h2 class="text-center text-light">Education</h2>
+        <div class="row mt-5 text-center">
+            <div class="col-md-6">
+                <div class="education-card">
+                    <h3>Bachelor's Degree</h3>
+                    <p class="text-muted">Calicut university </p>
+                    <p class="text-muted">2023</p>
+                    <p class="text-muted">Bachelor of Arts in Arabic</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="education-card">
+                    <h3>Internship</h3>
+                    <p class="text-muted">Brototype</p>
+                    <p class="text-muted">7 Months</p>
+                    <p class="text-muted">Mern Stack</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container">
+        <h2 class="text-center text-light">My Work</h2>
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <div class="card">
+                    <img src="/WhatsApp Image 2024-04-16 at 20.07.44_cea76dac.jpg" class="  card-img-top mb-0 p-0" alt="Project 1">
+                    <div class="card-body mt-0 ">
+                        <h3 class="card-title">Fonekart : E-commerce website</h3>
+                        <h6 class="card-text">With an emphasis on offering a holistic shopping experience, ”Fonekart” is a unique e-commerce platform.In my projects, I’ve
+                            leveraged advanced techniques like JWT token authentication and OTP verification to prioritize data security and user
+                            privacy. Implementing features such as product filtering, convenient payment options, and streamlined admin controls, all
+                            within the MVC pattern, I ensure seamless functionality and enhanced user experiences.
+                            <br><b>Key technologies used: </b>HTML5, CSS, Bootstrap, JavaScript, Node.js, Express.js, MongoDB, AWS and GitHub</h6>
+                            <strong>Git repo: </strong><span><a href="https://github.com/Muhammedsiyadt/Fonekart">https://github.com/Muhammedsiyadt/Fonekart</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <div class="card">
+                    <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h3 class="card-title">Project 2</h3>
+                        <p class="card-text">Short description of Project 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <div class="card">
+                    <img src="project3.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h3 class="card-title">Project 3</h3>
+                        <p class="card-text">Short description of Project 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2 class="text-center text-light">Contact Me</h2>
+        <div class="social-media">
+            <a href="https://instagram.com/yourprofile" target="_blank" class="btn btn-outline-light"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="btn btn-outline-light"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:youremail@example.com" class="btn btn-outline-light"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container text-light">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
