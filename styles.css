@@ -83,6 +83,22 @@ footer {
     border-color: #007bff;
 }
 
+/* Add this to your styles.css */
+
+/* Initial hidden state for sections */
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Visible state for sections */
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
 /* Media Queries */
 @media (max-width: 768px) {
     #about .row, #skills .row, #education .row {
