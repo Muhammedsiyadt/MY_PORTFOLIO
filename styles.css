@@ -8,7 +8,9 @@ body.dark-mode {
     margin-bottom: 20px;
 }
 
-.skill-card, .education-card, .portfolio-item .card {
+.skill-card,
+.education-card,
+.portfolio-item .card {
     background-color: #222;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -17,19 +19,9 @@ body.dark-mode {
     color: #fff;
 }
 
-.education-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-    background: #000000;
-    
-}
+.skill-card:hover,
+.education-card:hover,
 .portfolio-item .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-    background: #000;
-    
-}
-.skill-card:hover{
     transform: translateY(-5px);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
     background: #000;
@@ -44,7 +36,6 @@ body.dark-mode {
 }
 
 .portfolio-item .card:hover {
-    /* transform: translateY(-10px) rotate(2deg); */
     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
     border-color: #b9c6d4;
 }
@@ -83,13 +74,11 @@ footer {
     border-color: #007bff;
 }
 
-/* Add this to your styles.css */
-
 /* Initial hidden state for sections */
 .hidden {
     opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transform: translateY(50px); /* Increase translateY for a more pronounced effect */
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out; /* Slow down the transition */
 }
 
 /* Visible state for sections */
@@ -98,18 +87,15 @@ footer {
     transform: translateY(0);
 }
 
-
 /* Media Queries */
 @media (max-width: 768px) {
-    #about .row, #skills .row, #education .row {
-        flex-direction: column;
+    #about p {
+        font-size: 0.9rem; /* Adjust the font size as needed */
     }
+}
 
-    .portfolio-item .card-img-top {
-        height: auto;
-    }
-
-    .skill-card, .education-card {
-        margin-bottom: 15px;
+@media (max-width: 576px) {
+    #about p {
+        font-size: 0.8rem; /* Adjust the font size as needed */
     }
 }
